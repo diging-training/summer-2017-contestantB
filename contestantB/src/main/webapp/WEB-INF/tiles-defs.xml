@@ -18,5 +18,12 @@
 		<put-attribute name="content" value="/WEB-INF/views/home.jsp" />	
 	</definition>
 	
+	<definition name="manual" extends="base.definition">
+		<put-attribute name="content" value="/WEB-INF/views/manual.jsp" />	
+	</definition>
+	
+	<definition name="auto" extends="base.definition">
+		<put-attribute name="content" value="/WEB-INF/views/auto.jsp" />	
+	</definition>
 	
 </tiles-definitions>
