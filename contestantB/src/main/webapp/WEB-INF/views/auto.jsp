@@ -6,7 +6,7 @@
 <div class="jumbotron col-md-12">
 
 	<h1></h1>
-	<p>Enter your number</p>
+	<p>Start Automatic</p>
 	<form action="#" method="post">
 		<button class="btn btn-default btn-sm" type="submit">Start</button>
 		<br>
