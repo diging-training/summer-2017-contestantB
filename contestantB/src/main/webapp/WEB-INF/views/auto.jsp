@@ -1,5 +1,6 @@
 <%@ page pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@ taglib prefix="sec"
 	uri="http://www.springframework.org/security/tags"%>
 
@@ -12,7 +13,7 @@
 	<sec:authorize access="isAuthenticated()">
 		<h1></h1>
 		<p>Start Automatic</p>
-		<form action="<c:url value="/auto" />" method="post">
+		<form action="<c:url value="/auto/new" />" method="GET">
 			<button class="btn btn-default btn-sm" type="submit">Start</button>
 			<br>
 		</form>

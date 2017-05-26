@@ -26,4 +26,12 @@
 		<put-attribute name="content" value="/WEB-INF/views/auto.jsp" />	
 	</definition>
 	
+	<definition name="autonew" extends="base.definition">
+		<put-attribute name="content" value="/WEB-INF/views/autonew.jsp" />	
+	</definition>
+	
+	<definition name="result" extends="base.definition">
+		<put-attribute name="content" value="/WEB-INF/views/result.jsp" />	
+	</definition>
+	
 </tiles-definitions>
